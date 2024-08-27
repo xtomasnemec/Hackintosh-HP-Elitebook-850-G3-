@@ -845,9 +845,27 @@
                     <key>Comment</key>
                     <string>V2.3.0</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/itlwm</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>AirportItlwm.kext</string>
+                    <key>Comment</key>
+                    <string>V2.3.0</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/AirportItlwm</string>
                     <key>MaxKernel</key>
                     <string></string>
                     <key>MinKernel</key>
@@ -1541,13 +1559,13 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>C02951405GUJH4RUE</string>
+                <string>C02709130J9H9W8CB</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
                 <integer>0</integer>
                 <key>ROM</key>
-                <data>uZkumpbD</data>
+                <data>6uKpg5Jq</data>
                 <key>SpoofVendor</key>
                 <true/>
                 <key>SystemMemoryStatus</key>
@@ -1555,9 +1573,9 @@
                 <key>SystemProductName</key>
                 <string>MacBookPro15,2</string>
                 <key>SystemSerialNumber</key>
-                <string>C02ZV0CZJHCC</string>
+                <string>C02TC0F0GYFH</string>
                 <key>SystemUUID</key>
-                <string>3EFD0F8C-4BB6-458C-8437-EEB999BC1340</string>
+                <string>2BF6DBE5-8A33-4DB2-A939-793468A7B426</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
@@ -1723,8 +1741,6 @@
                 <false/>
                 <key>ForceResolution</key>
                 <false/>
-                <key>GopBurstMode</key>
-                <false/>
                 <key>GopPassThrough</key>
                 <string>Disabled</string>
                 <key>IgnoreTextInGraphics</key>
@@ -1813,8 +1829,6 @@
                 <true/>
                 <key>ResizeGpuBars</key>
                 <integer>-1</integer>
-                <key>ResizeUsePciRbIo</key>
-                <false/>
                 <key>TscSyncTimeout</key>
                 <integer>0</integer>
                 <key>UnblockFsConnect</key>
