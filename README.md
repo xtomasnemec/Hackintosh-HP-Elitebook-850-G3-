@@ -1,16 +1,16 @@
 # Hackintosh HP EliteBook 850 G3
 
-## macOS Ventura 13.4 - OpenCore version 0.9.2
+## macOS Sonoma 14.4 and up - OpenCore version 1.0.1
 
-![Ventura](/images/ventura.jpeg)
+![Sonoma](/images/sonoma.jpg)
 
 
 
 ### Note for clean install
 
-- Change SMBIOS to Macbook Pro 14,1
+- Change SMBIOS to Macbook Pro 15,1
 ![SMBIOS](/images/smbios.jpeg)
-Tool: [OCAT](https://img.shields.io/github/stars/amervelic/Hackintosh-HP-Elitebook-850-G3-)
+Tool: [OCAT](https://github.com/ic005k/OCAuxiliaryTools)
 - SSD format to APFS (for install to external SSD)
 - After install back to SMBIOS 13,2 and flag -no_compat_check
 ### Corresponding kexts:
